@@ -8,9 +8,14 @@ export default function HomeDashboard() {
 
   return (
     <div className="animate-fade-in" style={{ paddingBottom: '20px' }}>
-      <header style={{ marginBottom: '24px' }}>
-        <h1 className="gradient-text" style={{ fontSize: '2rem' }}>Welcome, Alex!</h1>
-        <p style={{ color: 'var(--text-muted)' }}>Section 112 • Row G • Seat 14</p>
+      <header style={{ marginBottom: '32px' }}>
+        <div style={{ marginBottom: '20px' }}>
+          <h1 className="gradient-text" style={{ fontSize: '3.5rem', fontWeight: 900, lineHeight: 1, marginBottom: '0px', letterSpacing: '-2px' }}>InsightArena</h1>
+        </div>
+        <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <h2 style={{ fontSize: '1.6rem', color: '#fff', fontWeight: 500 }}>Hello, Sports Fan!</h2>
+          <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', fontWeight: 600 }}>Section 112 • Row G • Seat 14</p>
+        </div>
       </header>
 
       <section className="glass-card card" style={{ position: 'relative', overflow: 'hidden' }}>
